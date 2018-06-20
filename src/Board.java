@@ -3,7 +3,6 @@ import javax.swing.*;
 public class Board extends JFrame {
 	JPanel panel;
 	public static void main(String[] args) {
-		System.out.println("Test");
 		Board b = new Board();
 		b.setVisible(true);
 	}
