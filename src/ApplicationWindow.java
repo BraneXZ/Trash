@@ -1,10 +1,12 @@
 import javax.swing.JFrame;
+
 public class ApplicationWindow extends JFrame
 {
 
 	public ApplicationWindow()
 	{
-		add(new Board());
+		Board b = new Board();
+		add(b);
 		setSize(600,600);
 		setTitle("Trash");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -14,6 +16,7 @@ public class ApplicationWindow extends JFrame
 	public static void main(String[] args) {
 		ApplicationWindow mainWindow = new ApplicationWindow();
 		mainWindow.setVisible(true);
+		
 	}
 
 }

@@ -6,10 +6,11 @@ public class Board extends JPanel {
 
 	public Board()
 	{
-	
-		setFocusable(true);
+
+		setFocusable(false);
 		setSize(400,400);
 		setBackground(Color.BLACK);
+		
 	}
 
 }
