@@ -1,18 +1,15 @@
 import java.awt.*;
 import javax.swing.*;
-public class Board extends JFrame {
-	JPanel panel;
-	public static void main(String[] args) {
-		Board b = new Board();
-		b.setVisible(true);
-	}
+public class Board extends JPanel {
+
+	private Player player1;
+
 	public Board()
 	{
-		setTitle("Trash");
+	
+		setFocusable(true);
 		setSize(400,400);
-		setResizable(false);
-		panel = new JPanel();
-		panel.setBackground(Color.BLUE);
-		add(panel);
+		setBackground(Color.BLACK);
 	}
+
 }
